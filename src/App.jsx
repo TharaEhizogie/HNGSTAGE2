@@ -1,15 +1,16 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Anchor from './components/Anchor';
-import Contactpage from './components/Contactpage';
+import Contact from './components/Contact';
+import Main from './components/Body';
 
 
 
 function App () {
   return (
     <Routes>
-          <Route path='/' element={<Anchor />} />
-          <Route path='/Contactpage' element={<Contactpage />} /> 
+          <Route path='/' element={<Main />} />
+          <Route path='/Contact.jsx' element={<Contact />} /> 
       </Routes>
   )
 }

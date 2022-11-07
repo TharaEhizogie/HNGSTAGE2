@@ -12,7 +12,7 @@ function Main() {
       <Button link={'https://books.zuri.team/'} id={'python_books'} linkName={'Python Books'} />
       <Button link={'https://background.zuri.team/'} id={'pitch'} linkName={'Background Check for Coders'} />
       <Button link={'https://books.zuri.team/design-rules'} id={'book_design'} linkName={'Design Books'} />  
-      <Button link={'./Contactpage'} id={'contact'} linkName={'Contact Me'} />
+      <Button link={'./Contact.jsx/'} id={'contact'} linkName={'Contact Me'} />
       <div className='slackicons'>
         <img src={slack} alt="" className="slack-icon" />
         <img src={icon} alt="" />
