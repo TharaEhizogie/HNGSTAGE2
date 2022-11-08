@@ -25,6 +25,11 @@
   }
 }
 
+#slack{
+  visibility: hidden;
+  display: none;
+}
+
 .inner {
   display: flex;
   flex-direction: column;
@@ -92,6 +97,12 @@
 .slack-icon {
   padding-right: 40px;
 }
+
+#slack{
+  display:none;
+  visibility: hidden;
+}
+
 .footer {
   width: 100%;
   display: flex;
